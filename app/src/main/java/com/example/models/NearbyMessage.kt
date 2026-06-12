@@ -1,4 +1,4 @@
-package com.example.models
+package com.example.schooltransport.models
 
 import kotlinx.serialization.Serializable
 

@@ -1,4 +1,4 @@
-package com.example
+package com.example.schooltransport
 
 import android.Manifest
 import android.os.Build
@@ -28,12 +28,12 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.example.ui.screens.DriverScreen
-import com.example.ui.screens.PassengerScreen
-import com.example.ui.screens.RoleSelectionScreen
-import com.example.ui.theme.MyApplicationTheme
-import com.example.viewmodel.AppRole
-import com.example.viewmodel.AppViewModel
+import com.example.schooltransport.ui.screens.DriverScreen
+import com.example.schooltransport.ui.screens.PassengerScreen
+import com.example.schooltransport.ui.screens.RoleSelectionScreen
+import com.example.schooltransport.ui.theme.MyApplicationTheme
+import com.example.schooltransport.viewmodel.AppRole
+import com.example.schooltransport.viewmodel.AppViewModel
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.MultiplePermissionsState
 import com.google.accompanist.permissions.rememberMultiplePermissionsState

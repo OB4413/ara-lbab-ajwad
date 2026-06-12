@@ -1,9 +1,9 @@
-package com.example.nearby
+package com.example.schooltransport.nearby
 
 import android.content.Context
 import android.util.Log
-import com.example.models.MessageType
-import com.example.models.NearbyMessage
+import com.example.schooltransport.models.MessageType
+import com.example.schooltransport.models.NearbyMessage
 import com.google.android.gms.nearby.Nearby
 import com.google.android.gms.nearby.connection.AdvertisingOptions
 import com.google.android.gms.nearby.connection.ConnectionInfo

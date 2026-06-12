@@ -1,4 +1,4 @@
-package com.example.ui.screens
+package com.example.schooltransport.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -22,7 +22,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.example.viewmodel.AppRole
+import com.example.schooltransport.viewmodel.AppRole
 
 @Composable
 fun RoleSelectionScreen(

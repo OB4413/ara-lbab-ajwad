@@ -1,9 +1,0 @@
-{
-  "name": "School Transport P2P",
-  "description": "An offline, peer-to-peer app for school bus drivers and passengers to coordinate trip stop points using Bluetooth/Wi-Fi.",
-  "requestFramePermissions": [
-    "bluetooth",
-    "location"
-  ],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

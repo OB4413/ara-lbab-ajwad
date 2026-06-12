@@ -1,4 +1,4 @@
-package com.example.db
+package com.example.schooltransport.db
 
 import kotlinx.coroutines.flow.Flow
 
