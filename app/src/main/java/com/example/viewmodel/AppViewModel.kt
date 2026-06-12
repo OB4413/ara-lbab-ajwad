@@ -1,13 +1,13 @@
-package com.example.schooltransport.viewmodel
+package com.example.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.room.Room
-import com.example.schooltransport.db.AppDatabase
-import com.example.schooltransport.db.SavedTrip
-import com.example.schooltransport.db.SavedTripRepository
-import com.example.schooltransport.nearby.NearbyManager
+import com.example.db.AppDatabase
+import com.example.db.SavedTrip
+import com.example.db.SavedTripRepository
+import com.example.nearby.NearbyManager
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.asStateFlow

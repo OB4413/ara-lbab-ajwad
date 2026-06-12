@@ -1,4 +1,4 @@
-package com.example.schooltransport
+package com.example
 
 import android.Manifest
 import android.os.Build
@@ -14,7 +14,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -28,12 +28,12 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.example.schooltransport.ui.screens.DriverScreen
-import com.example.schooltransport.ui.screens.PassengerScreen
-import com.example.schooltransport.ui.screens.RoleSelectionScreen
-import com.example.schooltransport.ui.theme.MyApplicationTheme
-import com.example.schooltransport.viewmodel.AppRole
-import com.example.schooltransport.viewmodel.AppViewModel
+import com.example.ui.screens.DriverScreen
+import com.example.ui.screens.PassengerScreen
+import com.example.ui.screens.RoleSelectionScreen
+import com.example.ui.theme.MyApplicationTheme
+import com.example.viewmodel.AppRole
+import com.example.viewmodel.AppViewModel
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.MultiplePermissionsState
 import com.google.accompanist.permissions.rememberMultiplePermissionsState
@@ -104,7 +104,7 @@ fun MainAppContent(viewModel: AppViewModel) {
                             viewModel.nearbyManager.stopAdvertising()
                             viewModel.nearbyManager.stopDiscovery()
                         }) {
-                            Icon(Icons.Default.ArrowBack, contentDescription = "Back")
+                            Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
                         }
                     }
                 )

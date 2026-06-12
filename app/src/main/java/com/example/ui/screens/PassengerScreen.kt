@@ -1,4 +1,4 @@
-package com.example.schooltransport.ui.screens
+package com.example.ui.screens
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -16,7 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.example.schooltransport.nearby.NearbyManager
+import com.example.nearby.NearbyManager
 
 @Composable
 fun PassengerScreen(

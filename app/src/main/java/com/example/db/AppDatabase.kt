@@ -1,4 +1,4 @@
-package com.example.schooltransport.db
+package com.example.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
